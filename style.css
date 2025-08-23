@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #5c80a4; /* Light gray background */
-    color: #000000; /* Dark text for better contrast */
+    background-color: #5c80a4; 
+    color: #000000; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,18 +12,18 @@ body {
 }
 
 .stopwatch-container {
-    /* Updated styles for the background image */
-    background-image: url('background.jpg'); /* Replace with the path to your image */
-    background-size: cover; /* This makes the image cover the entire container */
-    background-position: center; /* This centers the image in the container */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+   
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
     
     padding: 2rem;
-    border-radius: 20px; /* More rounded corners */
+    border-radius: 20px; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
-    max-width: 600px; /* Slightly wider container */
+    max-width: 600px; 
 }
 
 h1 {
@@ -46,37 +46,37 @@ h1 {
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Increased gap between buttons */
+    gap: 15px; 
     margin-bottom: 2rem;
 }
 
 .buttons button {
     border: none;
     padding: 0.8rem 1.5rem;
-    border-radius: 10px; /* Less rounded buttons */
+    border-radius: 10px; 
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.2s ease;
-    text-transform: capitalize; /* Correct capitalization */
+    text-transform: capitalize;
     font-weight: 600;
     color: #fff;
-    flex: 1; /* Makes buttons take up equal space */
+    flex: 1;
 }
 
 .start-btn {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
 }
 
 .start-btn.paused {
-    background-color: #FFC107; /* Yellow for Pause */
+    background-color: #FFC107; 
 }
 
 .lap-btn {
-    background-color: #2196F3; /* Blue */
+    background-color: #2196F3; 
 }
 
 .reset-btn {
-    background-color: #F44336; /* Red */
+    background-color: #F44336; 
 }
 
 .buttons button:disabled {
@@ -95,16 +95,16 @@ h1 {
     margin-top: 1.5rem;
     max-height: 200px;
     overflow-y: auto;
-    background-color: transparent; /* No background for laps container */
+    background-color: transparent; 
     padding: 0;
 }
-/* New CSS to hide the scrollbar */
+
 .laps-container::-webkit-scrollbar {
     display: none;
 }
 .laps-container {
-    -ms-overflow-style:none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style:none;  
+    scrollbar-width: none; 
 }
 .laps-container h2 {
     font-size: 1.2rem;
@@ -123,7 +123,7 @@ h1 {
 
 #laps-list li {
     padding: 0.5rem 0;
-    border-bottom: 1px solid #ffffff; /* Lighter separator line */
+    border-bottom: 1px solid #ffffff; 
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto Mono', monospace;
@@ -138,3 +138,4 @@ h1 {
 #laps-list li span:first-child {
     font-weight: bold;
 }
+
