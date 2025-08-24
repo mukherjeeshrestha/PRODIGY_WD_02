@@ -27,7 +27,7 @@ Click the Lap button to record the current time in the lap list.
 
 Click the Reset button to clear the timer and all recorded laps.
 
-# Github pages deployment
+# Github pages deployments
 https://mukherjeeshrestha.github.io/Stopwatch/
 
 # 💻 Technologies Used
