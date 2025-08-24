@@ -27,6 +27,9 @@ Click the Lap button to record the current time in the lap list.
 
 Click the Reset button to clear the timer and all recorded laps.
 
+# Github pages deployment
+
+
 # 💻 Technologies Used
 HTML: For the basic structure and elements of the application.
 
