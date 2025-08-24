@@ -47,7 +47,7 @@ function reset() {
     running = false;
     lapCounter = 0;
     
-    display.innerHTML = "00:00:00.00"; // Changed: Updated initial display to include milliseconds
+    display.innerHTML = "00:00:00"; 
     startPauseBtn.innerHTML = "Start";
     startPauseBtn.classList.remove('paused');
     lapBtn.disabled = true;
@@ -86,3 +86,4 @@ function formatTime(ms) {
 
     return `${pad(minutes)}:${pad(seconds)}:${pad(milliseconds)}`;
 }
+
