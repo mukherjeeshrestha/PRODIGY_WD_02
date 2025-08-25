@@ -28,7 +28,7 @@ Click the Lap button to record the current time in the lap list.
 Click the Reset button to clear the timer and all recorded laps.
 
 # Github pages deployments
-https://mukherjeeshrestha.github.io/Stopwatch/
+https://mukherjeeshrestha.github.io/PRODIGY_WD_02/
 
 # 💻 Technologies Used
 HTML: For the basic structure and elements of the application.
